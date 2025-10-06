@@ -1,0 +1,31 @@
+# Authentication files
+auth/
+*.htpasswd
+
+# Registry data
+data/
+
+# Certificates (if using local certs)
+certs/
+*.pem
+*.key
+*.crt
+
+# Environment files with secrets
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Docker volumes
+volumes/
+
+# Backup files
+backups/
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
